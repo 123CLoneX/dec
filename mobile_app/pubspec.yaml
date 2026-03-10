@@ -1,0 +1,21 @@
+
+name: betpro_mobile
+description: BetPro mobile sportsbook app
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.0.5
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/locales/
